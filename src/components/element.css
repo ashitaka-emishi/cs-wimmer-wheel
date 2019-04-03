@@ -1,0 +1,8 @@
+.element {
+    position: absolute;
+    bottom: 450px;
+    left: 375px;
+    height: 420px;
+    transform-origin: 75px 420px;
+  }
+  
