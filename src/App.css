@@ -1,0 +1,52 @@
+.App {
+  position: relative;
+  display: flex;
+  z-index: 0;
+}
+
+.Hand {
+  position: absolute;
+  bottom: 450px;
+  left: 400px;
+  transform-origin: 50px 0px;
+}
+
+.Hand .Arm {
+  position: absolute;
+  bottom: 0px;
+  left: 45px;
+  margin: 0;
+  padding: 0;
+  height: 380px;
+  width: 10px;
+  background-color: black;
+  z-index: 100;
+}
+
+.Hand img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  z-index: 200;
+}
+
+.Hand-1 {
+  transform: rotate(50deg);
+}
+
+.Element {
+  position: absolute;
+  bottom: 450px;
+  left: 375px;
+  height: 420px;
+  transform-origin: 75px 420px;
+}
+
+.Element img {
+  transform: rotate(-12.5deg);
+}
+
+.Position-1 {
+  transform: rotate(12.5deg);
+}
