@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/cs-wimmer-wheel/static/media/sea-creatures.382eb5a2.png"
   },
   {
-    "revision": "6cb45b5832314ce9b217",
-    "url": "/cs-wimmer-wheel/static/css/main.07ff41be.chunk.css"
+    "revision": "795743d310c0dcd3125f",
+    "url": "/cs-wimmer-wheel/static/css/main.e689a78f.chunk.css"
   },
   {
     "revision": "b13044772402d0b4ffbe",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/cs-wimmer-wheel/static/media/starlight.c5101b4f.png"
   },
   {
-    "revision": "6cb45b5832314ce9b217",
+    "revision": "795743d310c0dcd3125f",
     "url": "/cs-wimmer-wheel/static/js/main.7adb7a43.chunk.js"
   },
   {
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/cs-wimmer-wheel/static/media/color-wheel.acd5398f.png"
   },
   {
-    "revision": "51c6edebe90d019abf2562b828da6261",
+    "revision": "cc2ec42a52a092aa9b310433482a756c",
     "url": "/cs-wimmer-wheel/index.html"
   }
 ];
