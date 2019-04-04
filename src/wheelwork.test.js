@@ -29,13 +29,13 @@ describe("Wheelwork", () => {
         [
             { t1: 2, t2: 10, concept: "52/53" },
             { t1: 1, t2: 9, concept: "44/61" },
-            { t1: 2, t2: 6, concept: "18/87 A" },
-            { t1: 4, t2: 7, concept: "18/87 B" },
-            { t1: 2, t2: 9, concept: "42/63 A" },
-            { t1: 2, t2: 11, concept: "42/63 B" },
+            { t1: 2, t2: 6, concept: "18/87 B" },
+            { t1: 4, t2: 7, concept: "18/87 A" },
+            { t1: 2, t2: 9, concept: "42/63 E" },
+            { t1: 2, t2: 11, concept: "42/63 D" },
             { t1: 5, t2: 12, concept: "42/63 C" },
-            { t1: 7, t2: 13, concept: "42/63 D" },
-            { t1: 8, t2: 12, concept: "42/63 E" }
+            { t1: 7, t2: 13, concept: "42/63 B" },
+            { t1: 8, t2: 12, concept: "42/63 A" }
 
         ].forEach((testData) => {
             const w = new Wheelwork(testData.t1, testData.t2);
@@ -68,7 +68,7 @@ describe("Wheelwork", () => {
         expect(wheels[9].getFullConcept).toBeUndefined();
         expect(wheels[16].concept).toBe("43/62");
         expect(wheels[16].getFullConcept).toBeUndefined();
-        expect(wheels[93].getFullConcept()).toBe("3/102 B");
+        expect(wheels[93].getFullConcept()).toBe("3/102 A");
         expect(wheels[96].getFullConcept()).toBe("1/104");
     });
 });

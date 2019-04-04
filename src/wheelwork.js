@@ -18,7 +18,7 @@ class Wheelwork extends Object {
         var results = [];
         var i,w;
         for (i=52; i > 0; i--) {
-            w = Wheelwork.findWheels(i, 105 - i).reverse();
+            w = Wheelwork.findWheels(i, 105 - i);
             if (w.length === 0) {
                 var conceptStr = `${i}/${105-i}`;
                 w.push({
@@ -65,6 +65,7 @@ class Wheelwork extends Object {
     getFullConcept() {
         if (!this._fullConcept) {
             const wheels = Wheelwork.findWheels(this.c1, this.c2);
+            wheels.reverse();
             this._fullConcept = this.concept;
             for(var i=0; i < wheels.length && wheels.length > 1; i++) {
                 if (wheels[i].t1 === this.t1 && wheels[i].t2 === this.t2) {

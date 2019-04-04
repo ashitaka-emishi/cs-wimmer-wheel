@@ -36,15 +36,25 @@ class Idea extends Component {
     ]
 
     ideas[t2].pos = t1-1;
+    ideas[t2].overlay = true;
     if (ideas[t2].pos < 0) { ideas[t2].pos = 13; }
     ideas[t1].pos = t2-1;
+    ideas[t1].overlay = true;
     if (ideas[t1].pos < 0) { ideas[t1].pos = 13; }
     return ideas.map((i, idx) => (<Idea {...i} key={idx} />));
   }
 
   render() {
+    var style = {
+      transform: `rotate(-${this.props.pos * (360 / 14) + (180 / 14)}deg)`
+    };
+
+    if (this.props.overlay) {
+      style.zIndex = 400;
+    }
+
     return (
-      <div className="element" style={{ transform: `rotate(-${this.props.pos * (360 / 14) + (180 / 14)}deg)` }}>
+      <div className="element" style={style}>
         <img src={this.props.icon} alt={this.props.name} style={{ transform: `rotate(${this.props.pos * (360 / 14) + (180 / 14)}deg)` }}></img>
       </div>
     );
