@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cs-wimmer-wheel/precache-manifest.5fb365ea3f4383e387a8ace2b8fc0370.js"
+  "/cs-wimmer-wheel/precache-manifest.ac3e67e54696ec06f968d6f1dfdc5c78.js"
 );
 
 workbox.clientsClaim();

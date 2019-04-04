@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/cs-wimmer-wheel/static/media/sunlight.9196c5e5.png"
   },
   {
-    "revision": "890efcfc8135953a3663",
+    "revision": "ff2c1d2d0f9c7a719b16",
     "url": "/cs-wimmer-wheel/static/css/main.c2c322b9.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/cs-wimmer-wheel/static/media/vegetation.f34f94f4.png"
   },
   {
-    "revision": "890efcfc8135953a3663",
-    "url": "/cs-wimmer-wheel/static/js/main.baf63100.chunk.js"
+    "revision": "ff2c1d2d0f9c7a719b16",
+    "url": "/cs-wimmer-wheel/static/js/main.e8f2cccc.chunk.js"
   },
   {
     "revision": "591aee9ce48f113a16de7e9f2ba9d179",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/cs-wimmer-wheel/static/media/animal-kingdom.9c8946c4.png"
   },
   {
-    "revision": "b3a25b07ce5a4dcb79ad8ed30bd6fec4",
-    "url": "/cs-wimmer-wheel/static/media/eye-mind.b3a25b07.png"
+    "revision": "e483735d0e84fe3816823f03c821b82e",
+    "url": "/cs-wimmer-wheel/static/media/eye-mind.e483735d.png"
   },
   {
     "revision": "81981a40c5c09a145446b034611ffc99",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/cs-wimmer-wheel/static/media/freedom.44947d13.png"
   },
   {
-    "revision": "ea3c5f3b600d8e34a5408e1e515f87b2",
+    "revision": "bd991667ab656ff874120fc82307e948",
     "url": "/cs-wimmer-wheel/index.html"
   }
 ];
