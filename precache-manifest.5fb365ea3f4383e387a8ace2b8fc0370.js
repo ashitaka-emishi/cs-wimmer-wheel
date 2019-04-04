@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/cs-wimmer-wheel/static/media/sunlight.9196c5e5.png"
   },
   {
-    "revision": "d1caf232aded1a053fa8",
+    "revision": "890efcfc8135953a3663",
     "url": "/cs-wimmer-wheel/static/css/main.c2c322b9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/cs-wimmer-wheel/static/js/2.2e344739.chunk.js"
   },
   {
-    "revision": "acd5398faae46ba6faccbdf7f5e2720c",
-    "url": "/cs-wimmer-wheel/static/media/color-wheel.acd5398f.png"
+    "revision": "3e29d8665a2be9caf708262c20e78487",
+    "url": "/cs-wimmer-wheel/static/media/color-wheel.3e29d866.png"
   },
   {
     "revision": "66d0a6cf5ea74fada7e817307c40f41f",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/cs-wimmer-wheel/static/media/vegetation.f34f94f4.png"
   },
   {
-    "revision": "d1caf232aded1a053fa8",
-    "url": "/cs-wimmer-wheel/static/js/main.5372097f.chunk.js"
+    "revision": "890efcfc8135953a3663",
+    "url": "/cs-wimmer-wheel/static/js/main.baf63100.chunk.js"
   },
   {
     "revision": "591aee9ce48f113a16de7e9f2ba9d179",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/cs-wimmer-wheel/static/media/freedom.44947d13.png"
   },
   {
-    "revision": "8a988d3a2756b78cd1b394a611637bd0",
+    "revision": "ea3c5f3b600d8e34a5408e1e515f87b2",
     "url": "/cs-wimmer-wheel/index.html"
   }
 ];
