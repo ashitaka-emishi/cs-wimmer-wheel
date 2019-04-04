@@ -1,8 +1,13 @@
 .element {
     position: absolute;
     bottom: 450px;
-    left: 375px;
-    height: 420px;
-    transform-origin: 75px 420px;
+    left: 387px;
+    height: 415px;
+    transform-origin: 62.5px 415px;
+  }
+
+  .element img {
+    height: 125px;
+    width: 125px;
   }
   

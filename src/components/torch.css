@@ -1,19 +1,19 @@
 .torch {
     position: absolute;
     bottom: 450px;
-    left: 400px;
-    transform-origin: 50px 0px;
+    left: 399px;
+    transform-origin: 51px 0px;
   }
   
   .torch .arm {
     position: absolute;
     bottom: 0px;
-    left: 45px;
+    left: 46px;
     margin: 0;
     padding: 0;
     height: 380px;
-    width: 10px;
-    background-color: black;
+    width: 7px;
+    background-color:#222222;
     z-index: 100;
   }
   
@@ -21,7 +21,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100px;
+    width: 110px;
     z-index: 200;
   }
   

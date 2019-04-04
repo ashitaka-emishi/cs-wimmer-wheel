@@ -56,6 +56,48 @@ class App extends Component {
           <button onClick={this.changeConcept}>Prev</button>
           <h3>Concept {conceptText}</h3>
           <button onClick={this.changeConcept}>Next</button>
+
+
+          <table>
+            <thead>
+              <tr>
+                <th colSpan={4}>The Numeric Structure</th>
+              </tr>
+              <tr>
+                <th></th>
+                <th colSpan={2}># of Wheels</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td><td>1</td><td>1</td><td>104</td>
+              </tr>
+              <tr>
+                <td>2</td><td>1</td><td>1</td><td>103</td>
+              </tr>
+              <tr>
+                <td>3</td><td>2</td><td>2</td><td>102</td>
+              </tr>
+              <tr>
+                <td>4</td><td>2</td><td>2</td><td>101</td>
+              </tr>
+              <tr>
+                <td>5</td><td>2</td><td>2</td><td>100</td>
+              </tr>
+              <tr>
+                <td style={{color: "red" }}>6</td><td colSpan={2}>OMISSION</td><td style={{color: "red" }}>99</td>
+              </tr>
+
+
+
+            </tbody>
+            <tfoot>
+              <tr>
+                <th colSpan={4}>Numeric Middle</th>
+              </tr>
+            </tfoot>
+          </table>
         </div>
       </div>
     );
